@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DroidChan</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username">Usuario </string>
+    <string name="password">Contraseña </string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title_activity_sign_up">Registrar Usuario</string>
+    <string name="email">Email</string>
+    <string name="registrar">Registrar</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="strProfileResult">resultado</string>
+    <string name="title_activity_droid">DroidActivity</string>
+    <string name="title_activity_forum_fragment">ForumFragment</string>
+    <string name="title_activity_profile_fragment">ProfileFragment</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_prueba">PruebaActivity</string>
+    <string name="title_activity_prueba2">Prueba2Activity</string>
+    <string name="title_activity_thread">ThreadActivity</string>
+    <string name="new_thread">Nuevo Tema</string>
+    <string name="gallery">Galería</string>
+    <string name="camera">Cámara</string>
+    <string name="title_activity_create_thread">CreateThreadActivity</string>
+    <string name="suscribe_to_user">Suscribirse</string>
+    <string name="unsuscribe_to_user">Cancelar Suscripción</string>
+    <string name="thread_body">Cuerpo</string>
+    <string name="thread_title">Titulo</string>
+    <string name="create_thread">Crear Tema</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="large_text">Texto grande</string>
+    <string name="small_text">Texto pequeño</string>
+    <string name="reply_thread">Responder</string>
+    <string name="title_activity_group">GroupActivity</string>
+    <string name="title_activity_create_group">CreateGroupActivity</string>
+    <string name="title_activity_create_group_thread">CreateGroupThreadActivity</string>
+    <string name="title_activity_view_image">ViewImageActivity</string>
+    <string name="title_activity_mail_box">MailBoxActivity</string>
+    <string name="create_group">Crear Grupo</string>
+    <string name="description">Descripción</string>
+    <string name="join">Unirme</string>
+    <string name="users">Usuarios</string>
+    <string name="threads">Temas: </string>
+    <string name="replies">Respuestas: </string>
+    <string name="suscribers">Suscriptores: </string>
+    <string name="ratio">Ratio: </string>
+
+</resources>

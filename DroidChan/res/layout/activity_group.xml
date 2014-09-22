@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".GroupActivity" >
+
+    <RelativeLayout
+        android:id="@+id/group_linear_layout_1"
+        android:background="#D1EEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/group_text_name"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:text="@string/strProfileResult"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/group_text_description"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group_text_name"
+            android:text="@string/strProfileResult" />
+        
+        <TextView
+            android:id="@+id/group_text_creationDate"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group_text_description"
+            android:text="@string/strProfileResult" />
+        
+        <TextView
+            android:id="@+id/group_text_interactions"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group_text_creationDate"
+            android:text="@string/strProfileResult" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/group_linear_layout_2"
+        android:background="#A6A6A6"
+        android:layout_below="@id/group_linear_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/group_button_users"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/users" />
+
+        <Button
+            android:id="@+id/group_button_createThread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/group_button_users"
+            android:layout_marginRight="3dip"
+            android:text="@string/create_thread" />
+
+        <Button
+            android:id="@+id/group_button_join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/group_button_createThread"
+            android:layout_marginRight="3dip"
+            android:text="@string/join" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/group_linear_layout_3"
+        android:layout_below="@id/group_linear_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <ListView
+        android:id="@+id/ListView_listado"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+    </LinearLayout>
+
+
+</RelativeLayout>

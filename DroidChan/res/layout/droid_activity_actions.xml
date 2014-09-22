@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:droidchan="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_new_thread"
+          android:icon="@drawable/ic_action_edit"
+          android:title="@string/new_thread"
+          android:showAsAction="ifRoom"  />
+</menu>
